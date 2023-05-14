@@ -1,0 +1,56 @@
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    gap: 2px;
+    /*
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh; *//*vh is view height, the browser */
+    /* the header header says that a grid area named header will take up the first 2 areas */
+    /* grid-template-areas:
+     "header header navPanel"
+     "content content sidebar"
+     "content content empty"
+     "content content bottomRight"
+     "footer footer footer" */
+}
+
+.grid-item-1 {
+    /* grid-area: header; */
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.grid-item-2 {
+    /* grid-area: sidebar; */
+    grid-column-start: 10;
+    grid-row-start: 1;
+}
+
+.grid-item-3 {
+    /* grid-area: content; */
+    /* grid-column-start: 2;
+    grid-column-end: 6; */
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.grid-item-4 {
+    /* grid-area: navPanel; */
+    grid-column-start: 1;
+}
+
+.grid-item-5 {
+    grid-column: 10;
+    grid-row: 3;
+}
+
+.grid-item-6 {
+    grid-column: span;
+    grid-row: 4;
+}
