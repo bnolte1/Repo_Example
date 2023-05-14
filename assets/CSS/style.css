@@ -1,0 +1,11 @@
+:root {
+    --AlphaBlue: rgb(8, 8, 248);
+}
+.centeredDiv {
+    text-align: center;
+}
+
+#BlueBar {
+    background-color: var(--AlphaBlue);
+    color: aliceblue;
+}
