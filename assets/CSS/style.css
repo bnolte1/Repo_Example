@@ -1,11 +1,21 @@
 :root {
     --AlphaBlue: rgb(8, 8, 248);
+    --BackgroundGrey: rgb(140, 138, 138);
 }
+html{
+    background-color: var(--BackgroundGrey);
+}
+
 .centeredDiv {
     text-align: center;
 }
 
 #BlueBar {
     background-color: var(--AlphaBlue);
+    color: aliceblue;
+}
+
+.Cambria {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
 }
